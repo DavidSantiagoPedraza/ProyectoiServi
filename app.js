@@ -7,7 +7,8 @@ const app = express();
 
 // Conexión de base de datos
 const mongoose = require('mongoose');
-const url = 'mongodb://localhost:27017/iServi';
+const url = 'mongodb+srv://andresm:Holamundo25@iservi.jnzw1.mongodb.net/iServi?retryWrites=true&w=majority';
+// const url = 'mongodb://localhost:27017/iServi';
 const options = {useNewUrlParser: true, useUnifiedTopology: true};
 
 
